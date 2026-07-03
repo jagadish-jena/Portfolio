@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-email-backend",
+  "version": "1.0.0",
+  "description": "Backend API for receiving portfolio contact messages and forwarding them by email.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "nodemailer": "^6.9.13"
+  }
+}
