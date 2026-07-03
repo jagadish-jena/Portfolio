@@ -32,7 +32,7 @@ The contact form sends data to:
 
 ## Backend
 
-The backend receives contact form data, validates it, and forwards it to your email using SMTP.
+The backend receives contact form data, validates it, and forwards it to your email using Gmail OAuth2.
 
 Setup steps:
 
@@ -43,6 +43,4 @@ copy .env.example .env
 npm run dev
 ```
 
-Then edit `.env` with your real SMTP details.
-
-For Gmail, use an app password instead of your normal Gmail password.
+Then edit `.env` with your Gmail OAuth2 client ID, client secret, refresh token, sender, and receiver details.
