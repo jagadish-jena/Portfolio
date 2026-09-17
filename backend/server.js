@@ -5,11 +5,10 @@ import nodemailer from "nodemailer";
 
 dotenv.config();
 
-
 const app = express();
 const PORT = process.env.PORT || 5000;
 const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:5173";
-const RECEIVER_EMAIL = process.env.RECEIVER_EMAIL || "jenasuraj218@gmail.com";
+const RECEIVER_EMAIL = process.env.RECEIVER_EMAIL || "jenajagadish@gmail.com";
 
 app.use(cors({ origin: FRONTEND_URL }));
 app.use(express.json({ limit: "20kb" }));

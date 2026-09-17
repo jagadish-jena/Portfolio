@@ -4,6 +4,10 @@ A modern personal portfolio website built to showcase projects, technical skills
 
 This project includes a React + Vite frontend and a Node.js + Express backend for handling the contact form and sending emails through Gmail using Nodemailer.
 
+## Live Demo
+
+[View the deployed portfolio](https://portfolio-beta-bice-58.vercel.app/)
+
 ## Overview
 
 The portfolio is designed as a single-page application with sections for:
